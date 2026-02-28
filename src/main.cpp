@@ -59,12 +59,12 @@ void loop() {
   // Commit 4: Generate ultrasonic pulse
   // TODO 9:
   // Set TRIG pin LOW for 2 microseconds
-  digitalWrite(TRIG_PIN, LOW);
+  digitalWrite(TRIG_PIN, HIGH);
   delayMicroseconds(2);
 
   // TODO 10:
   // Set TRIG pin HIGH for 10 microseconds
-  digitalWrite(TRIG_PIN, HIGH);
+  digitalWrite(TRIG_PIN, LOW);
   delayMicroseconds(10);
 
   // TODO 11:
