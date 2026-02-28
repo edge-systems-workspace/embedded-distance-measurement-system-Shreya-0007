@@ -74,7 +74,7 @@ void loop() {
   // Commit 5: Measure echo duration
   // TODO 12:
   // Measure the duration of the echo pulse (pulseIn returns duration in microseconds)
-  duration = pulseIn(ECHO_PIN, HIGH);
+  duration = pulseIn(ECHO_PIN, LOW);
 
   // Commit 6: Calculate distance and display output
   // TODO 13:
