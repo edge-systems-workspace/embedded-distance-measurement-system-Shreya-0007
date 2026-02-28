@@ -98,5 +98,5 @@ void loop() {
 
   // TODO 16:
   // Delay for 500ms before next measurement
-  delay(500);
+  delay(600);
 }
